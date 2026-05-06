@@ -3,35 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portal de Estudos</title>
+    <title>Meu Portal de Conteúdo</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-900 font-sans">
+<body class="bg-slate-50 text-slate-900 font-sans">
 
-    <header class="bg-blue-600 text-white py-10 text-center shadow-lg">
-        <h1 class="text-3xl font-bold">Meu Inventário de Conteúdo</h1>
-        <p class="opacity-80 text-sm mt-2">Preparação para os 18 anos</p>
+    <header class="bg-indigo-600 text-white py-12 shadow-md text-center">
+        <h1 class="text-3xl font-bold tracking-tight">Meu Inventário Digital</h1>
+        <p class="text-indigo-100 mt-2">Construindo a base para os 18 anos</p>
     </header>
 
-    <main class="max-w-2xl mx-auto py-10 px-5">
-        <div class="bg-white p-8 rounded-2xl shadow-sm">
-            <h2 class="text-xl font-semibold mb-6 border-b pb-4 text-gray-700">Artigos Publicados:</h2>
+    <main class="max-w-xl mx-auto py-12 px-6">
+        <div class="bg-white rounded-3xl shadow-xl p-8 border border-slate-200">
+            <h2 class="text-xl font-bold mb-8 text-slate-700 border-b pb-4">Artigos Disponíveis:</h2>
             
-            <ul class="space-y-4">
-                <li>
-                    <a href="tenis-iniciante.html" class="block p-5 bg-green-50 border border-green-200 rounded-xl hover:bg-green-100 transition-all text-green-800 font-bold shadow-sm">
-                        🎾 Guia de Tênis: Escolhendo sua Raquete
-                    </a>
-                </li>
+            <nav class="flex flex-col gap-4">
+                <a href="tenis-iniciante.html" class="flex items-center justify-between p-5 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-2xl transition-all group">
+                    <span class="font-bold text-emerald-800 text-lg">🎾 Guia de Tênis</span>
+                    <span class="text-emerald-400 group-hover:translate-x-1 transition-transform">→</span>
+                </a>
 
-                <li>
-                    <a href="leis-de-newton.html" class="block p-5 bg-indigo-50 border border-indigo-200 rounded-xl hover:bg-indigo-100 transition-all text-indigo-800 font-bold shadow-sm">
-                        🚀 Física: As Três Leis de Newton
-                    </a>
-                </li>
-            </ul>
+                <a href="leis-de-newton.html" class="flex items-center justify-between p-5 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-2xl transition-all group">
+                    <span class="font-bold text-blue-800 text-lg">🚀 Leis de Newton</span>
+                    <span class="text-blue-400 group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+            </nav>
         </div>
     </main>
+
+    <footer class="text-center py-10 text-slate-400 text-xs uppercase tracking-widest">
+        Sistema de Aprendizado Ativo - Curitiba 2026
+    </footer>
 
 </body>
 </html>
