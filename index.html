@@ -3,52 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inovação e Aprendizado</title>
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
-        header { text-align: center; padding: 50px 0; background: #2563eb; color: white; border-radius: 10px; margin-bottom: 30px; }
-        article { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { margin: 0; }
-        .lang-section { border-bottom: 1px solid #eee; margin-bottom: 30px; padding-bottom: 30px; }
-        .badge { background: #e5e7eb; padding: 5px 10px; border-radius: 5px; font-size: 0.8em; }
-    </style>
+    <title>Meu Portal de Estudos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Tecnologia e Futuro</h1>
-        <p>Explorando novas fronteiras do conhecimento</p>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+    <header class="bg-blue-600 text-white py-10 text-center shadow-lg">
+        <h1 class="text-3xl font-bold">Meu Inventário de Conteúdo</h1>
+        <p class="opacity-80 text-sm mt-2">Preparação para os 18 anos</p>
     </header>
 
-    <article>
-        <div class="lang-section">
-            <span class="badge">Português</span>
-            <h2>Como a tecnologia acelera sua evolução</h2>
-            <p>O acesso à informação nunca foi tão democrático. Hoje, com ferramentas de inteligência artificial e plataformas de hospedagem rápida, qualquer pessoa pode transformar conhecimento em valor. O segredo não está apenas em consumir conteúdo, mas em como você o organiza e o apresenta ao mundo.</p>
-            <p>Criar um portal próprio é o primeiro passo para estabelecer autoridade e abrir portas para monetização direta.</p>
-        </div>
-
-        <div class="lang-section">
-            <span class="badge">English</span>
-            <h2>How technology accelerates your evolution</h2>
-            <p>Access to information has never been more democratic. Today, with AI tools and fast hosting platforms, anyone can turn knowledge into value. The secret lies not just in consuming content, but in how you organize and present it to the world.</p>
-            <p>Creating your own portal is the first step to establishing authority and opening doors to direct monetization.</p>
-        </div>
-
-        <div style="margin-top: 40px; padding: 20px; background: #f0fdf4; border-radius: 8px; border: 1px solid #dcfce7;">
-            <h3>Explore mais conteúdos:</h3>
-            <ul style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 15px;">
-                    <a href="tenis-iniciante.html" style="color: #2563eb; text-decoration: none; font-weight: bold;">
-                        🎾 Guia de Tênis: Como escolher sua primeira raquete
+    <main class="max-w-2xl mx-auto py-10 px-5">
+        <div class="bg-white p-8 rounded-2xl shadow-sm">
+            <h2 class="text-xl font-semibold mb-6 border-b pb-4 text-gray-700">Artigos Publicados:</h2>
+            
+            <ul class="space-y-4">
+                <li>
+                    <a href="tenis-iniciante.html" class="block p-5 bg-green-50 border border-green-200 rounded-xl hover:bg-green-100 transition-all text-green-800 font-bold shadow-sm">
+                        🎾 Guia de Tênis: Escolhendo sua Raquete
                     </a>
                 </li>
+
                 <li>
-                    <a href="leis-de-newton.html" style="color: #4f46e5; text-decoration: none; font-weight: bold;">
-                        🚀 Física: As 3 Leis de Newton (Resumo CBMPR)
+                    <a href="leis-de-newton.html" class="block p-5 bg-indigo-50 border border-indigo-200 rounded-xl hover:bg-indigo-100 transition-all text-indigo-800 font-bold shadow-sm">
+                        🚀 Física: As Três Leis de Newton
                     </a>
                 </li>
             </ul>
         </div>
-        </article>
+    </main>
+
 </body>
 </html>
